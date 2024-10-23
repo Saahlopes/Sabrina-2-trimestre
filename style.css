@@ -6,7 +6,7 @@
     --azul: #002F52;
 }
 
-body{
+.body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -87,4 +87,31 @@ width: 100%;
 .carddescricao {
     display: flex;
     justify-content: space-between;
+}
+
+.cardbotoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descricaotitulo {
+    color: var(--laranja);
+}
+
+.descricaotitulo {
+    color: var(--laranja);
+    font-weight: 700;
 }
